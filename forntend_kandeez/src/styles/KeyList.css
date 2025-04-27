@@ -1,0 +1,126 @@
+/* KeyList.css */
+
+/* Global body */
+body {
+  background-color: #0d0d0d;
+  color: #a8ff60;
+  font-family: 'Fira Code', monospace;
+}
+
+/* Container */
+.container {
+  background: #121212;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(168, 255, 96, 0.15), 0 0 30px rgba(199, 125, 255, 0.05);
+}
+
+/* Table */
+.table {
+  background-color: transparent;
+  color: #a8ff60;
+  font-size: 1rem;
+}
+
+.table thead {
+  background-color: #1a1a1a;
+}
+
+.table thead th {
+  color: #381062;
+  text-shadow: 0 0 5px #a8ff60;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #161616;
+}
+
+.table-striped tbody tr:hover {
+  background-color: #1f1f1f;
+  box-shadow: inset 0 0 10px rgba(199, 125, 255, 0.2);
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(135deg, #a8ff60, #8edb50);
+  border: none;
+  color: #0d0d0d;
+  font-weight: bold;
+  box-shadow: 0 0 8px #a8ff60aa;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #8edb50, #a8ff60);
+  box-shadow: 0 0 15px #a8ff60cc;
+}
+
+.btn-info {
+  background: linear-gradient(135deg, #c77dff, #a066cc);
+  border: none;
+  color: #0d0d0d;
+  font-weight: bold;
+  box-shadow: 0 0 8px #c77dff99;
+  transition: all 0.3s ease;
+}
+
+.btn-info:hover {
+  background: linear-gradient(135deg, #a066cc, #c77dff);
+  box-shadow: 0 0 15px #c77dffcc;
+}
+
+.btn-secondary {
+  background-color: #333;
+  color: #a8ff60;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #444;
+}
+
+/* Switches */
+.form-check-input {
+  background-color: #2a2a2a;
+  border: 1px solid #555;
+}
+
+.form-check-input:checked {
+  background-color: #a8ff60;
+  border-color: #a8ff60;
+  box-shadow: 0 0 10px #a8ff60, 0 0 5px #c77dff88;
+}
+
+/* Modal */
+.modal-content {
+  background: #181818;
+  color: #a8ff60;
+  border: 1px solid #333;
+  box-shadow: 0 0 15px rgba(168, 255, 96, 0.1), 0 0 10px rgba(199, 125, 255, 0.05);
+}
+
+.modal-header, .modal-footer {
+  border-color: #2c2c2c;
+}
+
+/* Modal backdrop */
+.modal-backdrop.show {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+/* List inside modal */
+.list-group-item {
+  background-color: #1a1a1a;
+  color: #a8ff60;
+  border: 1px solid #333;
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #a8ff60;
+  text-shadow: 0 0 7px #a8ff60, 0 0 5px #c77dff66;
+}
